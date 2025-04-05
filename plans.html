@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Plans - Lite Telecom Telecom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><span class="gradient-text">Lite Telecom</span></a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="plans.html" class="active">Plans</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our <span class="gradient-text">Plans</span></h1>
+            <p>Flexible options for every need and budget</p>
+        </div>
+    </section>
+
+    <section class="plans-detailed">
+        <div class="container">
+            <div class="plans-tabs">
+                <button class="tab-btn active" data-tab="mobile">Mobile</button>
+                <button class="tab-btn" data-tab="home">Home Internet</button>
+                <button class="tab-btn" data-tab="business">Business</button>
+            </div>
+            
+            <div class="plans-content">
+                <div class="tab-pane active" id="mobile-tab">
+                    <div class="plan-cards">
+                        <!-- Mobile plans cards same as index.html -->
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="home-tab">
+                    <div class="plan-cards">
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <h3>Basic Internet</h3>
+                                <div class="price">$39<span>/mo</span></div>
+                            </div>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check"></i> 100 Mbps Download Speed</li>
+                                <li><i class="fas fa-check"></i> Unlimited Data</li>
+                                <li><i class="fas fa-check"></i> Free Modem Rental</li>
+                                <li><i class="fas fa-check"></i> WiFi Router Included</li>
+                                <li><i class="fas fa-check"></i> 24/7 Support</li>
+                            </ul>
+                            <a href="#" class="btn primary-btn">Get Started</a>
+                        </div>
+                        
+                        <div class="plan-card popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <div class="plan-header">
+                                <h3>Plus Internet</h3>
+                                <div class="price">$59<span>/mo</span></div>
+                            </div>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check"></i> 300 Mbps Download Speed</li>
+                                <li><i class="fas fa-check"></i> Unlimited Data</li>
+                                <li><i class="fas fa-check"></i> Free Modem Rental</li>
+                                <li><i class="fas fa-check"></i> Advanced WiFi Router</li>
+                                <li><i class="fas fa-check"></i> Priority Support</li>
+                            </ul>
+                            <a href="#" class="btn primary-btn">Get Started</a>
+                        </div>
+                        
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <h3>Premium Internet</h3>
+                                <div class="price">$89<span>/mo</span></div>
+                            </div>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check"></i> 1 Gbps Download Speed</li>
+                                <li><i class="fas fa-check"></i> Unlimited Data</li>
+                                <li><i class="fas fa-check"></i> Free Modem Rental</li>
+                                <li><i class="fas fa-check"></i> Whole-Home Mesh WiFi</li>
+                                <li><i class="fas fa-check"></i> VIP Support</li>
+                            </ul>
+                            <a href="#" class="btn primary-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="business-tab">
+                    <div class="business-plans-intro">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Business Solutions">
+                        <div class="business-plans-content">
+                            <h2>Custom Business Solutions</h2>
+                            <p>Our business plans are tailored to your specific needs. Contact our sales team to discuss:</p>
+                            <ul>
+                                <li>Multiple line discounts</li>
+                                <li>Dedicated business support</li>
+                                <li>Cloud phone systems</li>
+                                <li>Enterprise security solutions</li>
+                                <li>Custom SLA agreements</li>
+                            </ul>
+                            <a href="contact.html" class="btn primary-btn">Contact Business Sales</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plan-comparison">
+        <div class="container">
+            <h2 class="section-title">Plan <span class="gradient-text">Comparison</span></h2>
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Basic</th>
+                            <th>Plus</th>
+                            <th>Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data Speed</td>
+                            <td>100 Mbps</td>
+                            <td>300 Mbps</td>
+                            <td>1 Gbps</td>
+                        </tr>
+                        <tr>
+                            <td>Data Limit</td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Equipment</td>
+                            <td>Basic Router</td>
+                            <td>Advanced Router</td>
+                            <td>Mesh System</td>
+                        </tr>
+                        <tr>
+                            <td>Support</td>
+                            <td>Standard</td>
+                            <td>Priority</td>
+                            <td>VIP</td>
+                        </tr>
+                        <tr>
+                            <td>Contract</td>
+                            <td>None</td>
+                            <td>None</td>
+                            <td>None</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Lite Telecom</h3>
+                    <p>Leading the future of telecommunications with innovative solutions and customer-focused services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#plans">Plans</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Mobile Plans</a></li>
+                        <li><a href="#">Home Internet</a></li>
+                        <li><a href="#">Business Solutions</a></li>
+                        <li><a href="#">TV & Streaming</a></li>
+                        <li><a href="#">International Roaming</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new offers and promotions.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Lite Telecom Telecom. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

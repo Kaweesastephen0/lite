@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lite Telecom - Next Generation Telecom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="gradient-text">Lite Telecom</span>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="plans.html">Plans</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                
+                <h1>Experience <span class="gradient-text">Lightning Fast</span> Connectivity</h1>
+                <p>Unlimited data, crystal clear calls, and seamless streaming with our next-gen network technology.</p>
+                <div class="cta-buttons">
+                    <a href="plans.html" class="btn primary-btn">View Plans</a>
+                    <a href="contact.html" class="btn secondary-btn">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                alt="5G Network" 
+                class="hero-img"
+                loading="lazy">
+                <div class="floating-icons">
+                    <i class="fas fa-wifi floating-icon icon-1"></i>
+                    <i class="fas fa-signal floating-icon icon-2"></i>
+                    <i class="fas fa-bolt floating-icon icon-3"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stat-card">
+                <i class="fas fa-users"></i>
+                <h3 class="counter" data-target="2500000">0</h3>
+                <p>Happy Customers</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-tower-cell"></i>
+                <h3 class="counter" data-target="15000">0</h3>
+                <p>Network Towers</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3 class="counter" data-target="95">0</h3>
+                <p>Coverage (%)</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-headset"></i>
+                <h3 class="counter" data-target="24">0</h3>
+                <p>Support Hours</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+            <p class="section-subtitle">We provide comprehensive telecom solutions for everyone</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Plans</h3>
+                    <p>Unlimited talk, text, and data plans tailored to your needs with nationwide coverage.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Home Internet</h3>
+                    <p>Blazing fast fiber optic internet for your home with unlimited data and reliable connection.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Business Solutions</h3>
+                    <p>Custom telecom solutions for businesses of all sizes with dedicated support.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3>TV & Streaming</h3>
+                    <p>Premium entertainment with hundreds of channels and on-demand content.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plans" id="plans">
+        <div class="container">
+            <h2 class="section-title">Choose Your <span class="gradient-text">Plan</span></h2>
+            <p class="section-subtitle">Flexible options for every need and budget</p>
+            
+            <div class="plans-tabs">
+                <button class="tab-btn active" data-tab="mobile">Mobile</button>
+                <button class="tab-btn" data-tab="home">Home Internet</button>
+                <button class="tab-btn" data-tab="business">Business</button>
+            </div>
+            
+            <div class="plans-content">
+                <div class="tab-pane active" id="mobile-tab">
+                    <div class="plan-cards">
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <h3>Basic</h3>
+                                <div class="price">$29<span>/mo</span></div>
+                            </div>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check"></i> 10GB High-Speed Data</li>
+                                <li><i class="fas fa-check"></i> Unlimited Talk & Text</li>
+                                <li><i class="fas fa-check"></i> Nationwide Coverage</li>
+                                <li><i class="fas fa-check"></i> 5G Access</li>
+                                <li><i class="fas fa-check"></i> 24/7 Customer Support</li>
+                            </ul>
+                            <a href="#" class="btn primary-btn">Get Started</a>
+                        </div>
+                        
+                        <div class="plan-card popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <div class="plan-header">
+                                <h3>Plus</h3>
+                                <div class="price">$49<span>/mo</span></div>
+                            </div>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check"></i> 50GB High-Speed Data</li>
+                                <li><i class="fas fa-check"></i> Unlimited Talk & Text</li>
+                                <li><i class="fas fa-check"></i> International Calls</li>
+                                <li><i class="fas fa-check"></i> 5G Access</li>
+                                <li><i class="fas fa-check"></i> Mobile Hotspot</li>
+                            </ul>
+                            <a href="#" class="btn primary-btn">Get Started</a>
+                        </div>
+                        
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <h3>Premium</h3>
+                                <div class="price">$79<span>/mo</span></div>
+                            </div>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check"></i> Unlimited High-Speed Data</li>
+                                <li><i class="fas fa-check"></i> Unlimited Talk & Text</li>
+                                <li><i class="fas fa-check"></i> Global Roaming</li>
+                                <li><i class="fas fa-check"></i> Premium 5G Access</li>
+                                <li><i class="fas fa-check"></i> 100GB Mobile Hotspot</li>
+                            </ul>
+                            <a href="#" class="btn primary-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="home-tab">
+                    <div class="coming-soon">
+                        <h3>Home Internet Plans Coming Soon!</h3>
+                        <p>We're working on exciting new home internet packages. Stay tuned!</p>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="business-tab">
+                    <div class="coming-soon">
+                        <h3>Custom Business Solutions</h3>
+                        <p>Contact our sales team for tailored business telecom packages.</p>
+                        <a href="#contact" class="btn primary-btn">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+           
+            <p class="section-subtitle">Hear from people who switched to Lite Telecom</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"I've been with Lite Telecom for 2 years now and the service has been flawless. The 5G speeds are incredible and I've never had a dropped call."</p>
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Sarah J.">
+                      
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Small Business Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                       
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"The customer service is outstanding. When I had an issue with my billing, they resolved it immediately and even gave me a credit for the inconvenience."</p>
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Michael T.">
+                            <div class="author-info">
+                                <h4>Michael Thompson</h4>
+                                <span>Freelance Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                       
+                        <h2 class="section-title">What Our <span class="gradient-text">Customers</span> Say</h2>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"I travel frequently for work and Lite Telecom's international roaming plans have saved me hundreds of dollars compared to my previous provider."</p>
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Lisa M.">
+                            <div class="author-info">
+                                <h4>Lisa Martinez</h4>
+                                <span>Sales Executive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">Have questions? Our team is ready to help you 24/7</p>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="">Select Service</option>
+                            <option value="mobile">Mobile Plans</option>
+                            <option value="internet">Home Internet</option>
+                            <option value="business">Business Solutions</option>
+                            <option value="support">Customer Support</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Call Us</h3>
+                    <p>1-800-CONNECT</p>
+                    <p>24/7 Customer Support</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>support@Lite Telecom.com</p>
+                    <p>sales@Lite Telecom.com</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Visit Us</h3>
+                    <p>123 Telecom Avenue</p>
+                    <p>Tech City, TC 10001</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Lite Telecom</h3>
+                    <p>Leading the future of telecommunications with innovative solutions and customer-focused services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#plans">Plans</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Mobile Plans</a></li>
+                        <li><a href="#">Home Internet</a></li>
+                        <li><a href="#">Business Solutions</a></li>
+                        <li><a href="#">TV & Streaming</a></li>
+                        <li><a href="#">International Roaming</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new offers and promotions.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Lite Telecom Telecom. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
